@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Professional website of José Ramón Hernández Espinal: profile, experience, skills, and projects.">
+    <title>JRHE | Professional Profile</title>
+
+    <!-- (rest of head remains the same) -->
+</head>
+
+<body>
+    <header class="topbar" id="home">
+        <nav class="nav shell">
+            <a href="#home" class="logo" aria-label="Home">
+                <img src="src/img/AtmosLogo.png" alt="Atmos Logo" loading="eager">
+            </a>
+
+            <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="main-nav">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <a class="btn btn-whatsapp"
+                href="https://wa.me/50432642063?text=Hello%20Jose%2C%20I%20would%20like%20to%20request%20a%20quote."
+                target="_blank" rel="noopener noreferrer">Request a Quote</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero shell reveal">
+            <div class="hero-text">
+                <p class="kicker">Hello! I'm</p>
+                <h1 class="hero-name">JOSE RAMON<br>HERNANDEZ ESPINAL</h1>
+
+                <p class="hero-lead">
+                    I am a Junior Full Stack Developer focused on building websites and systems that help businesses
+                    improve their digital presence and optimize their processes.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#projects" class="btn">View Projects</a>
+                    <a href="#contact" class="btn btn-outline">Contact</a>
+                </div>
+
+                <ul class="quick-data">
+                    <li><strong>Languages:</strong> English / Spanish</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section shell reveal" id="summary">
+            <div class="section-title">
+                <p class="kicker">Professional Summary</p>
+                <h2>Professional Focus</h2>
+            </div>
+
+            <div class="panel-grid summary-grid">
+                <article class="panel-card">
+                    <h3>Core Profile</h3>
+                    <p>
+                        I am a fast learner with experience in English/Spanish interpretation and a foundation in web
+                        development.
+
+                        I focus on building websites and systems that solve real business needs, while continuously
+                        improving my technical skills.
+
+                        I stand out for my communication, adaptability, and ability to quickly learn new technologies.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section shell reveal" id="services">
+            <div class="section-title">
+                <p class="kicker">Services</p>
+                <h2>Solutions I Offer</h2>
+            </div>
+
+            <div class="panel-grid services-grid">
+                <article class="panel-card">
+                    <h3>Business Websites</h3>
+                    <p>Development of professional websites to enhance digital presence and improve customer contact.</p>
+                </article>
+
+                <article class="panel-card">
+                    <h3>Landing Pages</h3>
+                    <p>Creation of conversion-focused pages for promotions, lead generation, and campaigns.</p>
+                </article>
+
+                <article class="panel-card">
+                    <h3>Basic Web Systems</h3>
+                    <p>Implementation of login, inventory, and management modules to solve key business processes.</p>
+                </article>
+
+                <article class="panel-card">
+                    <h3>Maintenance & Improvements</h3>
+                    <p>Content updates, visual adjustments, and technical support to keep websites fast and functional.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section section-alt" id="experience">
+            <div class="shell reveal">
+                <div class="section-title">
+                    <p class="kicker">Work Experience</p>
+                    <h2>Professional Background</h2>
+                </div>
+
+                <div class="experience-grid">
+                    <article class="experience-card">
+                        <h3>English/Spanish Interpreter</h3>
+                        <p class="company">Teleperformance | 2021 - 2022</p>
+                        <p>11 months, full-time.</p>
+                        <ul>
+                            <li>Medical call interpretation services.</li>
+                            <li>Banking call interpretation services.</li>
+                            <li>Health insurance interpretation services.</li>
+                        </ul>
+                    </article>
+
+                    <article class="experience-card">
+                        <h3>English/Spanish Interpreter</h3>
+                        <p class="company">Interpretia - Mego Networks | 2022 - 2024</p>
+                        <p>1 year and 7 months, part-time.</p>
+                        <ul>
+                            <li>CSI category interpretation services.</li>
+                            <li>MSI category interpretation services.</li>
+                            <li>VRI category interpretation services.</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section shell reveal" id="projects">
+            <div class="section-title">
+                <p class="kicker">Projects</p>
+                <h2>Professional Projects</h2>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>AutoKNLS Auto Parts</h3>
+                    <p>Corporate website to strengthen digital brand presence and clearly showcase services.</p>
+                </article>
+
+                <article class="project-card">
+                    <h3>Taskmate App</h3>
+                    <p>Task management application focused on personal productivity with local data persistence.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section shell reveal" id="contact">
+            <div class="section-title">
+                <p class="kicker">Contact</p>
+                <h2>Contact Information</h2>
+            </div>
+
+            <div class="contact-layout">
+                <form class="panel-card contact-form" name="contact" method="POST" data-netlify="true">
+                    <input type="hidden" name="form-name" value="contact">
+
+                    <h3>Contact Me:</h3>
+
+                    <label class="form-field">
+                        <span>Name</span>
+                        <input name="name" type="text" required>
+                    </label>
+
+                    <label class="form-field">
+                        <span>Email</span>
+                        <input name="email" type="email" required>
+                    </label>
+
+                    <label class="form-field">
+                        <span>Phone</span>
+                        <input name="phone" type="tel" required>
+                    </label>
+
+                    <label class="form-field">
+                        <span>Message</span>
+                        <textarea name="message" rows="5" required></textarea>
+                    </label>
+
+                    <button class="btn" type="submit">Send</button>
+                </form>
+
+                <article class="panel-card contact-copy">
+                    <p>If you need a website or system for your business, reach out and I’ll share a proposal with you.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; José Ramón Hernández Espinal | Portfolio <span id="year"></span></p>
+    </footer>
+</body>
+
+</html>
